@@ -1,0 +1,27 @@
+This simple tool is made on pure bash.
+
+It's allow to do simple actions on many server like:
+
+1. take or put some thing to servers.
+
+2. run single command from line or mass commands from file to servers.
+
+Why and for?
+
+Because i could not use any exist tool to administration many server. 
+I can't, becouse our customer are really specific and does not allow to installing any extra packages on live servers. So in this case i made this little program.
+
+How it's work?
+
+1. Copy code to some file, make this file executable 
+exemple: chmod u+x /path/to/the/file.sh or chmod 500 /path/to/the/file.sh
+
+2. Run file from command line with one of options.
+exemple: /path/to/the/file.sh -c
+
+3. Follow the text menu
+
+Options:
+-p put some thing to the servers
+-c some command to servers
+-g get some thing from the servers
